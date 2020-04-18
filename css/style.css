@@ -20,8 +20,7 @@ ul {
   list-style: none;
 }
 
-.navigation .box,
-section.box {
+.box {
   float: left;
 }
 
@@ -146,6 +145,10 @@ header {
 /* Fine regole banner */
 
 /* Regole main */
+.first-row {
+  margin-bottom: 40px;
+}
+
 .first-row .box.main-side {
   width: 33%;
   text-align: center;
@@ -171,16 +174,20 @@ header {
   margin: 30px 185px;
 }
 
-.first-row p {
+.first-row p,
+.second-row p {
   color: gray;
   font-size: 18px;
-  line-height: 3vh;
+  line-height: 4vh;
   word-spacing: 3px;
 }
 
 hr.division{
   width: 98%;
   margin-left: 1%;
+}
+
+.second-row {
   margin: 40px 0;
 }
 
@@ -188,12 +195,113 @@ hr.division{
   width: 50%;
 }
 
-.second-row .second-main .level img {
+.second-row .left .level img {
   width: 500px;
-  margin-left: 150px;
+  margin-left: 250px;
+}
+
+.second-row .right {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 479px;
+  line-height: 4vh;
+}
+
+.second-row .right h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.second-row p {
+  margin-bottom: 20px;
+}
+
+.second-row a {
+  color: #98c8f8;
 }
 /* Fine regole main */
 
 /* Regole footer */
+footer {
+  background: lightgray;
+  padding: 30px;
+  line-height: 12vh;
+}
 
+footer .choose-plane,
+footer .form {
+  width: 50%;
+}
+
+footer .choose-plane {
+  padding-left: 200px;
+}
+
+footer .choose-plane h3 {
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+footer .form {
+  text-align: right;
+  padding-right: 200px;
+}
+
+footer .form * {
+  color: gray;
+}
+
+footer .form .sex {
+  background: lightgray;
+  border: 0;
+  border-bottom: 1px solid gray;
+  margin: 0 25px;
+  font-size: 16px;
+}
+
+footer .form button {
+  background: #7fb802;
+  border: 0;
+  color: #fff;
+  padding: 20px 10px;
+  text-transform: uppercase;
+}
+
+footer .form button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .form button a:hover {
+  color: orange;
+}
 /* Fine regole footer */
+
+/* Inizio regole help */
+.help {
+  display: inline-block;
+  position: fixed;
+  bottom: -10px;
+  right: 290px;
+  padding-bottom: 20px;
+
+}
+
+.help a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #7fb802;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 15px 25px 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+.help a:hover {
+  position: fixed;
+  bottom: -2px;
+  right: 290px;
+}
+/* Fine regole help */

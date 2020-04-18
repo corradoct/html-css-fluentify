@@ -1,0 +1,199 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine reset */
+
+/* Regole generali */
+body {
+  font-family: 'Roboto', 'Verdana';
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.navigation .box,
+section.box {
+  float: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* Fine regole generali */
+
+
+/* Regole header */
+header {
+  background: #0b325a;
+  color: #fff;
+  height: 70vh;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: bottom right;
+}
+/* Fine regole header */
+
+/* Regole nav */
+.navigation {
+  padding: 30px 150px;
+  line-height: 5vh;
+  position: relative;
+}
+
+.navigation ul li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.navigation ul li a:hover {
+  color: orange;
+}
+
+.navigation .logo {
+  width: 15%;
+}
+
+.navigation .nav-center {
+  width: 45%;
+}
+
+.navigation .join {
+  width: 40%;
+  text-align: right;
+}
+
+.navigation .join li a.login {
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+
+.navigation .join li a.plane {
+  background: #7fb802;
+  border-radius: 3px;
+  padding: 6px 10px;
+}
+/* Fine regole nav */
+
+/* Inizio regole teaser */
+.teaser {
+  position: absolute;
+  left: 0;
+  top: 30vh;
+  padding: 0 150px;
+  width: 50%;
+}
+
+.teaser h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.teaser a {
+  color: #fff;
+  background: #7fb802;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.teaser a:hover {
+  color: orange;
+}
+/* Fine regole teaser */
+
+/* Regole banner */
+.banner {
+  text-align: center;
+  background: lightgray;
+  padding: 50px;
+  letter-spacing: 2px;
+}
+
+.banner h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  color: gray;
+  font-size: 20px;
+}
+/* Fine regole banner */
+
+/* Regole main */
+.first-row .box.main-side {
+  width: 33%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0 100px;
+}
+
+.first-row img {
+  height: 150px;
+  margin-bottom: 90px;
+}
+
+.first-row h3 {
+  color: #7fb802;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.first-row hr {
+  border-top: 2px solid gray;
+  width: 50px;
+  margin: 30px 185px;
+}
+
+.first-row p {
+  color: gray;
+  font-size: 18px;
+  line-height: 3vh;
+  word-spacing: 3px;
+}
+
+hr.division{
+  width: 98%;
+  margin-left: 1%;
+  margin: 40px 0;
+}
+
+.second-row .second-main {
+  width: 50%;
+}
+
+.second-row .second-main .level img {
+  width: 500px;
+  margin-left: 150px;
+}
+/* Fine regole main */
+
+/* Regole footer */
+
+/* Fine regole footer */

@@ -221,6 +221,10 @@ hr.division{
 .second-row a {
   color: #98c8f8;
 }
+
+.second-row a:hover {
+  color: orange;
+}
 /* Fine regole main */
 
 /* Regole footer */
@@ -249,8 +253,13 @@ footer .form {
   padding-right: 200px;
 }
 
-footer .form * {
+footer .form h4, select {
   color: gray;
+}
+
+footer .form h4 {
+  display: inline-block;
+  font-weight: normal;
 }
 
 footer .form .sex {
@@ -261,20 +270,16 @@ footer .form .sex {
   font-size: 16px;
 }
 
-footer .form button {
-  background: #7fb802;
-  border: 0;
-  color: #fff;
-  padding: 20px 10px;
-  text-transform: uppercase;
-}
-
-footer .form button a {
+footer .form a {
   color: #fff;
   text-decoration: none;
+  background: #7fb802;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
 
-footer .form button a:hover {
+footer .form a:hover {
   color: orange;
 }
 /* Fine regole footer */
